@@ -487,7 +487,6 @@ def main():
     welcome_art += "\t\t\t\t\t\t\t\nMade by Hackerez\n"
     print(welcome_art)
     time.sleep(1)
-    # conf = str(input("Config...: "))
 
     multi_name_list = []
 
@@ -507,7 +506,7 @@ def main():
         f3 = threading.Thread(target=multi_name_2, args=(multi_name_list2,))
         f3.start()
     time.sleep(75)
-    single_name("","","")
+    #single_name("","","")
     f1.join()
     f2.join()
     f3.join()
