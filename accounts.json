@@ -1,0 +1,34 @@
+{
+    "account": [
+      {
+        "token": "",
+        "email": "your@email",
+        "password": "your_password",
+        "name-list": [
+          {
+            "name": "name_to_snipe"
+          },
+          {
+            "name": "another name..."
+          },
+          {
+            "name": "put how many u want..."
+          }
+        ]
+      },
+      {
+        "token": "",
+        "email": "put_how_many_account_you_want@email",
+        "password": "your_password",
+        "name-list": [
+          {
+            "name": "name_to_snipe"
+          },
+          {
+            "name": "put how many u want..."
+          }
+        ]
+      }
+      
+    ]
+  }
