@@ -82,3 +82,9 @@ multi_name_list = ["your@email","ez_email@email.com"]
 no_name_list = ["super@email"]
 ```
 
+# INSTALLATION
+1. `git clone https://github.com/Hackerez04/McNS.git`
+2. `cd McNS`
+3. `pip install -r requirements.txt`
+
+### It's time to snipe some names!
