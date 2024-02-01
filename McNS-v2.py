@@ -511,7 +511,7 @@ def main():
     f2.join()
     f3.join()
 
-    print("\n[+++] Seems impossible but the program ended!")
+    print("\n[+++] Program ended!")
 
 
 try:
