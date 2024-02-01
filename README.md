@@ -9,7 +9,7 @@ It supports token authentication and Microsoft authentication.
 You don't need to provide a token because it will automatically take it.
 
 # NOTE!
-### Remember to remove the 2fa otherwise the program will not be able to send requests using the Microsoft authentication
+### Remember to remove the 2fa otherwise the program will not be able to send requests using the Microsoft authentication.
 ### If you don't wont to disable 2fa, you can't use Microsoft auth so you have to provide manually the token for each account and update it manually every 24h.
 
 # Instructions 
