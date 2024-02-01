@@ -1,9 +1,16 @@
-# About
+# ABOUT
 
-Powerful Minecraft name sniper in python. It support different kind of method/type of account.
+Powerful Minecraft name sniper in python. It supports different kind of method/type of account.
 - Normal accounts
 - Accounts with no name assigned
 - Multiple names to sniper per account
+
+It supports token authentication and Microsoft authentication.
+You don't need to provide a token because it will automatically take it.
+
+# NOTE!
+### Remember to remove the 2fa otherwise the program will not be able to send requests using the Microsoft authentication
+### If you don't wont to disable 2fa, you can't use Microsoft auth so you have to provide manually the token for each account and update it manually every 24h.
 
 # Instructions 
 ![Alt text](screenshot.jpg?raw=true "Screenshot")
@@ -15,7 +22,7 @@ Powerful Minecraft name sniper in python. It support different kind of method/ty
    - If you want to use accounts that don't have a name registered  edit the line with `no_name_list = []` and put the email of the accounts that you want to use.
 3. Run the program
 
-# Example
+# EXAMPLE
 ### JSON
 ```
 {
@@ -75,5 +82,3 @@ multi_name_list = ["your@email","ez_email@email.com"]
 no_name_list = ["super@email"]
 ```
 
-# NOTE!
-### Remember to remove the 2fa otherwise the program will not be able to send requests
