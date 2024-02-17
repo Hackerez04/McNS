@@ -112,10 +112,15 @@ def microsoft_login(ac_email, ac_password, name):
         res_str = res.content.decode()
         sfttag = re.search("""(?<=sFTTag:'<input type="hidden" name="PPFT" id="i0327" value=")(.*)(?="\/>')""",
                            res_str).group()
-        urlpost = re.search("""(?<=urlPost:')(.*)(?=',au)""", res_str).group()
-        # hystory of urlpost: av, aw, au
+        #print(res_str)
+        #old unstable shit
+        #urlpost = re.search("""(?<=urlPost:')(.*)(?=',aw)""", res_str).group()
+        
+        # hystory of urlpost: av, aw, au, aw
         # print(sfttag)
         # print(urlpost)
+
+        urlpost = re.search(r"urlPost:'(.*?)'", res_str).group(1)
         data = {
             "login": "%s" % (ac_email),
             "loginfmt": "%s" % (ac_email),
